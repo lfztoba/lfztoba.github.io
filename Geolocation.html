@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!-- saved from url=(0053)https://puravidaapps.com/php/kml/map-geolocation.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Geolocation</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
+    
     <style>
       html, body, #map-canvas {
         height: 100%;
@@ -11,7 +11,7 @@
         padding: 0px
       }
     </style>
-     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="./Geolocation_files/js"></script>
 
     <script>
     // source: https://developers.google.com/maps/documentation/javascript/examples/map-geolocation
@@ -56,7 +56,7 @@
     function showLayer(event) {
       // source: https://developers.google.com/maps/documentation/javascript/examples/layer-kml
       var ctaLayer = new google.maps.KmlLayer({
-        url: 'https://www.google.com/maps/d/u/0/kml?hl=en&authuser=0&mid=1__urcbbUwmBwaWbq__Rf71wGHcE&cid=mp&cv=TwIBbviPyFU.en.'
+        url: 'https://puravidaapps.com/php/kml/Seznam.kml'
       });
       ctaLayer.setMap(map);
     }
@@ -80,8 +80,8 @@
 
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-  </head>
+  <script type="text/javascript" charset="UTF-8" src="./Geolocation_files/common.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./Geolocation_files/util.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./Geolocation_files/stats.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./Geolocation_files/AuthenticationService.Authenticate"></script></head>
   <body>
     <div id="map-canvas"></div>
-  </body>
-</html>
+  
+</body></html>
