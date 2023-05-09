@@ -1,0 +1,12 @@
+import * as glide from "../glide";
+
+import chroma from "chroma-js";
+
+export default glide
+function multiplicar(a, b) {
+  return a * b;
+}
+
+// Ejemplo de uso:
+let resultado = multiplicar(2, 5);
+console.log(resultado); // Imprime 10 en la consola
